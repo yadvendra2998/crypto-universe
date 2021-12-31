@@ -34,7 +34,6 @@ const News = ({ simplified }) => {
                                     </div>
                                     <Text>{moment(news.datePublished).startOf('ss').fromNow()}</Text>
                                 </div>
-                                
                             </div>
                         </a>
                     </Card>
